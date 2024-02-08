@@ -48,6 +48,14 @@ public class Main {
         }
         return num1 / num2;
     }
+
+    public static double square(double num1){
+        return num1*num1;
+    }
+
+    public static double cube(double num1){
+        return num1*num1*num1;
+    }
  
     public static void main(String[] args) {
  
@@ -72,6 +80,8 @@ public class Main {
         System.out.println("Subtraction: " + subtract(num1, num2));
         System.out.println("Multiplication: " + multiply(num1, num2));
         System.out.println("Division: " + divide(num1, num2));
+        System.out.println("Square: " + square(num1));
+        System.out.println("Cube: " + cube(num1));
         sc.close();
     }
  
