@@ -1,4 +1,4 @@
-import java.util.Scanner;
+//import java.util.Scanner;
  
 public class Main {
  
@@ -62,18 +62,18 @@ public class Main {
         // The code `Scanner sc = new Scanner(System.in);` creates a new Scanner object named `sc` that
         // is used to read input from the user. `System.in` represents the standard input stream, which
         // is typically the keyboard.
-        Scanner sc = new Scanner(System.in);
+        //Scanner sc = new Scanner(System.in);
         double num1, num2;
  
        // The code `System.out.print("Enter the first number: ");` is displaying the message "Enter the
        // first number: " to the user.
-        System.out.print("Enter the first number: ");
-        num1 = sc.nextDouble();
+        System.out.print("Enter the first number: "+num1);
+      //  num1 = 5;
  
        // The code `System.out.print("Enter the second number: ");` is displaying the message "Enter
        // the second number: " to the user.
-        System.out.print("Enter the second number: ");
-        num2 = sc.nextDouble();
+        System.out.print("Enter the second number: "+num2);
+     // num2 = 4;
  
        // The code is performing the following actions:
         System.out.println("Addition: " + add(num1, num2));
@@ -82,7 +82,7 @@ public class Main {
         System.out.println("Division: " + divide(num1, num2));
         System.out.println("Square: " + square(num1));
         System.out.println("Cube: " + cube(num1));
-        sc.close();
+       // sc.close();
     }
  
     
